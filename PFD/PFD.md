@@ -5,7 +5,7 @@ D Flip-Flop採用Asynchronous Reset (非同步)，及不用等clock訊號及產�
 <div align="center"><img width="320" alt="DFF" src="https://github.com/user-attachments/assets/916b9062-ecf1-45d8-a73e-e8a33b4e93ee">      <img width="300" alt="DFF1" src="https://github.com/user-attachments/assets/4cdb5ef4-781b-4435-8ab3-724bd2fc6a6f"></div>
 
 # PFD設計
-此次的鉴频鉴相器设计(Phase Frequency Detector，PFD）設計我使用D Flip-Flop組成的架構，包括1個NAND gate去觸發reset信號，如下圖所示
+此次的相位頻率偵測器(Phase Frequency Detector，PFD）設計我使用D Flip-Flop組成的架構，包括1個NAND gate去觸發reset信號，如下圖所示
 <div align="center"><img width="250" alt="PFD" src="https://github.com/user-attachments/assets/fdb3fe40-f475-4a23-938d-0700ed997681"></div>
 
 Transistor level PFD 的Schematic以及layout view
